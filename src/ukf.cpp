@@ -25,7 +25,7 @@ UKF::UKF() {
   std_a_ = 1.0;
 
   // Process noise standard deviation yaw acceleration in rad/s^2
-  std_yawdd_ = 2.0;
+  std_yawdd_ = 1.0;
   
   /**
    * DO NOT MODIFY measurement noise values below.
